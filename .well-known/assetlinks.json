@@ -1,1 +1,19 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"jp.mynavi.jobfair.dev","sha256_cert_fingerprints":["2D:4E:9F:F4:DA:BA:4E:70:AB:C3:24:CE:58:DC:09:AA:9B:E0:5E:D9:58:90:CB:B6:83:49:CC:F0:99:85:87:8D"]}}]
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "jp.mynavi.android.sys.jobsearch.staging",
+            "sha256_cert_fingerprints": [
+                "2F:60:30:F2:1D:63:09:E8:3E:0F:0F:F0:4A:ED:64:68:D7:ED:5F:7F:C7:56:E8:80:E1:B1:BE:C4:5C:6A:D3:E7",
+                "BD:91:E5:FD:56:91:CB:78:6A:76:73:98:12:3D:A2:9D:EC:82:ED:1F:BB:00:E7:0D:EC:E8:33:40:27:35:C5:E4",
+                "C8:18:CB:63:D0:C3:51:57:83:72:8D:D6:6B:62:E8:3F:D9:E3:DF:63:A3:64:B5:B4:33:01:DA:A6:46:25:E4:05",
+                "FF:76:81:42:2E:37:4E:EF:0C:C9:C2:F0:39:97:C3:DA:88:8E:52:EF:96:D7:74:8C:34:EB:23:BB:13:7C:4F:93",
+                "09:58:1E:14:3B:EA:2E:30:B3:DF:E3:1A:71:5F:E0:EB:38:E5:DA:83:9E:EF:F0:A1:4D:B4:2A:69:49:49:22:A8",
+                "16:4B:C3:67:80:2A:E1:94:EC:E7:34:58:8D:AB:80:EE:FA:82:9F:2C:01:33:D7:06:90:02:94:23:56:B3:8C:59"
+            ]
+        }
+    }
+]
