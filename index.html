@@ -17,117 +17,18 @@
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32"/>
 </head>
 <body>
-<div id="loading">
-  <style>
-    body {
-      inset: 0;
-      overflow: hidden;
-      margin: 0;
-      padding: 0;
-      position: fixed;
-    }
+  <div class="container">
+    <h2>Xác minh danh tính với ProTech</h2>
 
-    .footer {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      margin-bottom: 4px;
-      margin-left: 8px;
-    }
+    <!-- Các input ẩn để truyền thông tin người dùng vào SDK -->
+    <input type="hidden" name="userid" value="user-123">
+    <input type="hidden" name="name" value="山田 太郎">
+    <input type="hidden" name="birthday" value="19900101">
+    <input type="hidden" name="address" value="東京都港区六本木1-9-9">
 
-    #loading {
-      align-items: center;
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      width: 100%;
-    }
-
-    #loading img {
-      animation: 2s ease-in-out 0s infinite alternate breathe;
-      opacity: 1;
-      transition: opacity .4s;
-    }
-
-    #loading.main_done img {
-      opacity: 1;
-    }
-
-    #loading.init_done img {
-      animation: .33s ease-in-out 0s 1 forwards zoom;
-      opacity: .05;
-    }
-
-    @keyframes breathe {
-      from {
-        transform: scale(1)
-      }
-
-      to {
-        transform: scale(1.1)
-      }
-    }
-
-    @keyframes zoom {
-      from {
-        transform: scale(1)
-      }
-
-      to {
-        transform: scale(10)
-      }
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
-  <img src="images/favicon.png" alt="Loading indicator..." width="144" height="144"/>
-  <div class="indicator">
-    <style>
-      .indicator {
-        border: 8px solid #ffffff;
-        border-top: 8px solid #00ff00;
-        border-bottom: 8px solid #00ff00;
-        border-radius: 50%;
-        width: 144px;
-        height: 144px;
-        margin-left: -152px;
-        animation: spin 3s linear infinite;
-      }
-    </style>
+    <!-- SDK sẽ tự hiển thị giao diện xác minh tại đây -->
+    <div id="protech-checker"></div>
   </div>
-  <div class="indicator2">
-    <style>
-      .indicator2 {
-        border: 8px solid #ffffff;
-        border-left: 8px double #00ff00;
-        border-right: 8px double #00ff00;
-        border-radius: 50%;
-        width: 192px;
-        height: 192px;
-        margin-left: -184px;
-        animation: spin 1s linear infinite;
-      }
-    </style>
-  </div>
-  <div class="indicator3">
-    <style>
-      .indicator3 {
-        border: 8px solid #ffffff;
-        border-top: 8px solid #00ff00;
-        border-bottom: 8px solid #00ff00;
-        border-radius: 50%;
-        width: 240px;
-        height: 240px;
-        margin-left: -232px;
-        animation: spin 0.5s linear infinite;
-      }
-    </style>
-  </div>
-  <i class="footer">Created by <a href="http://www.nguyenducthinh.com">nguyenducthinh.com</a></i>
-</div>
-<script charset='utf-8' src='https://app.protechidchecker.com/apps/org5067'></script>
+  <script charset='utf-8' src='https://app.protechidchecker.com/apps/org5067'></script>
 </body>
 </html>
